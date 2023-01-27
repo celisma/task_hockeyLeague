@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 80%;
+  height: 40vh;
+  margin: 30px auto 10px;
+  display: block;
+  text-align: center;
+}
+
+h1{
+  width: 80%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 5px auto;
+  
+}
+
+.contenedor{
+/* position: relative; */
+}
+
+.logo{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  border: 1px solid black;
+  top: 251px;
+  right: 16vw;
+
+}
+
+.menuNav{
+  width: 200px;
+  display: block;
+  margin-left: 100px;
+}
+
+a{
+  text-decoration:none;
+  display: block;
+  margin: 30px 50px;
+}
+
+.fechas{
+  width: 400px;
+  display: block;
+  position: absolute;
+  top: 350px;
+  left: 300px;
+}
+
+.fechas p{
+  margin-bottom: 20px;
+}
