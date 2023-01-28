@@ -48,13 +48,20 @@ a{
 }
 
 .fechas{
-  width: 400px;
+  width: 800px;
   display: block;
   position: absolute;
+  margin:auto;
   top: 350px;
   left: 300px;
 }
 
 .fechas p{
-  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.fechas a{
+  text-decoration: none;
+  display: inline;
+  margin: 50px;
 }
