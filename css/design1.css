@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+h1{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  top: 85px;
+  left: 155px;
+}
 img{
   width: 80%;
   height: 40vh;
@@ -12,7 +19,7 @@ img{
   text-align: center;
 }
 
-h1{
+h2{
   width: 80%;
   text-align: center;
   background-color: black;
@@ -21,16 +28,12 @@ h1{
   
 }
 
-.contenedor{
-/* position: relative; */
-}
-
 .logo{
   width: 70px;
   height: 70px;
   position: absolute;
   border: 1px solid black;
-  top: 251px;
+  top: 288px;
   right: 16vw;
 
 }
@@ -48,10 +51,10 @@ a{
 }
 
 .fechas{
-  width: 800px;
+  width: 850px;
   display: block;
   position: absolute;
-  margin:auto;
+  margin: 25px auto;
   top: 350px;
   left: 300px;
 }

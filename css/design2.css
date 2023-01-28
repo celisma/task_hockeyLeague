@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+position: relative;
+top: 30px;
+left: 130px;
+}
+
+img{
+  width: 80%;
+  height: 40vh;
+  margin: 30px auto 10px;
+  display: block;
+  text-align: center;
+}
+
+h2{
+  width: 80%;
+  text-align: center;
+  border: 1px solid black;
+  color: black;
+  margin: 5px auto;
+  
+}
+
+.logo{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  border: 1px solid black;
+  top: 380px;
+  left: 150px;
+}
+
+.menuNav ul{
+display: inline-block;  
+position: absolute;
+top: 55px;
+right: 135px;
+}
+
+.menuNav ul a{
+  text-decoration: none;
+  font-size: large;
+  margin: 10px;
+  border: 1px solid black;
+  color: white;
+  background-color: rgba(28, 110, 177, 0.776);
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menuNav ul a:hover{
+  background-color: rgb(24, 136, 10);
+  background: rgb(24, 136, 10);
+}
+
+#home{
+  background: rgb(24, 136, 10);
+}
+
+#about{
+  background: rgb(24, 136, 10);
+}
+
+#contact{
+  background: rgb(24, 136, 10);
+}
+
+.fechas{
+  width: 850px;
+  display: block;
+  position: absolute;
+  margin: 25px auto;
+  top: 370px;
+  left: 270px;
+}
