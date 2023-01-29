@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Averia+Serif+Libre:ital@1 & family= Lato:wght@100 & display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,9 +7,10 @@
 }
 
 h1{
-position: relative;
-top: 30px;
-left: 130px;
+  position: relative;
+  top: 28px;
+  left: 370px;
+  font-family: 'Averia Serif Libre',cursive,'Courier New', Courier, monospace;
 }
 
 img{
@@ -20,6 +23,7 @@ img{
 
 h2{
   width: 80%;
+  font-family: 'Averia Serif Libre',cursive,'Courier New', Courier, monospace; 
   text-align: center;
   border: 1px solid black;
   color: black;
@@ -79,4 +83,8 @@ right: 135px;
   margin: 25px auto;
   top: 370px;
   left: 270px;
+}
+
+.fechas p{
+  margin-bottom: 20px;
 }
