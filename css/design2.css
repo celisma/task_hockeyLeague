@@ -39,14 +39,14 @@ h2{
   left: 150px;
 }
 
-.menuNav ul{
+.menuNav {
 display: inline-block;  
 position: absolute;
 top: 55px;
 right: 135px;
 }
 
-.menuNav ul a{
+.menuNav a{
   text-decoration: none;
   font-size: large;
   margin: 10px;
@@ -58,7 +58,7 @@ right: 135px;
   padding: 10px;
 }
 
-.menuNav ul a:hover{
+.menuNav a:hover{
   background-color: rgb(24, 136, 10);
   background: rgb(24, 136, 10);
 }
