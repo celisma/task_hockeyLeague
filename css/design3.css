@@ -28,7 +28,6 @@ h2{
   background-color: rgba(255, 255, 0, 0.453);
   color: black;
   margin: 10px auto;
-  
 }
 
 .logo{
@@ -38,55 +37,54 @@ h2{
   border: 1px solid black;
   top: 1px;
   left: 150px;
-  }
+}
 
 .menuNav ul{
   display: inline-block; 
   position: absolute;
   top: 314px;
   left: 500px;
-  }
+}
 
 .menuNav ul a{
-    text-decoration: none;
-    font-size: large;
-    margin: 20px;
-    border: 1px solid black;
-    color: white;
-    background-color: rgba(28, 110, 177, 0.776);
-    box-shadow: 3px 3px 3px black;
-    cursor: pointer;
-    padding: 10px;
-  }  
+  text-decoration: none;
+  font-size: large;
+  margin: 20px;
+  border: 1px solid black;
+  color: white;
+  background-color: rgba(28, 110, 177, 0.776);
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+  padding: 10px;
+}  
 
 .menuNav ul a:hover{
-    background-color: rgb(24, 136, 10);
-    background: rgb(24, 136, 10);
-  }
+  background-color: rgb(24, 136, 10);
+  background: rgb(24, 136, 10);
+}
   
-  #home{
-    background: rgb(24, 136, 10);
-  }
+#home{
+  background: rgb(24, 136, 10);
+}
   
-  #about{
-    background: rgb(24, 136, 10);
-  }
+#about{
+  background: rgb(24, 136, 10);
+}
   
-  #contact{
-    background: rgb(24, 136, 10);
-  }
+#contact{
+  background: rgb(24, 136, 10);
+}
 
-  .fechas{
-    width: 850px;
-    display: block;
-    position: absolute;
-    margin: 25px auto;
-    top: 400px;
-    left: 200px;
-  }
+.fechas{
+  width: 850px;
+  display: block;
+  position: absolute;
+  margin: 25px auto;
+  top: 400px;
+  left: 200px;
+}
 
-  .fechas p{
-    margin-bottom: 15px;
-  }
+.fechas p{
+  margin-bottom: 15px;
+}
 
-  
