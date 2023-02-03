@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Averia+Serif+Libre:ital@1 & family= Lato:wght@100 & display=swap');
+/* @import url('https://fonts.googleapis.com/css2? family= Averia+Serif+Libre:ital@1 & family= Lato:wght@100 & display=swap'); */
 
 *{
   margin: 0;
@@ -7,10 +7,14 @@
 }
 
 h1{
-  position: relative;
-  top: 20px;
-  left: 460px;
+  display: flex;
+  justify-content: center;
   font-family: 'Averia Serif Libre',cursive,'Courier New', Courier, monospace;
+  font-size: xx-large;
+  margin-top: 20px;
+  /* position: relative; */
+  /* top: 20px;
+  left: 460px; */
 }
 
 img{
@@ -18,6 +22,8 @@ img{
   height: 40vh;
   margin: 30px auto 10px;
   display: block;
+  border: 1px solid black;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -30,20 +36,28 @@ h2{
   margin: 10px auto;
 }
 
+h3{
+  margin: 20px;
+}
+
 .logo{
   width: 90px;
   height: 90px;
-  position: absolute;
   border: 1px solid black;
-  top: 1px;
+  position: absolute;
+  top: 20px;
   left: 150px;
 }
 
 .menuNav {
-  display: inline-block; 
-  position: absolute;
+  height: 60px;
+  display: flex;  
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  /* position: absolute;
   top: 314px;
-  left: 500px;
+  left: 500px; */
 }
 
 .menuNav a{
@@ -75,16 +89,79 @@ h2{
   background: rgb(24, 136, 10);
 }
 
+#rules{
+  background: rgb(24, 136, 10);
+}
+
+#game{
+  background: rgb(24, 136, 10);
+}
+ 
+main{
+  width: 80%;
+  margin: auto;
+}
 .fechas{
-  width: 850px;
-  display: block;
-  position: absolute;
-  margin: 25px auto;
-  top: 400px;
-  left: 200px;
+  margin-left:20px;
+}
+
+ul li{
+  list-style-type:none;
+}
+
+.ol-primer li {
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+ol .ol-style li{
+  text-decoration: none;
 }
 
 .fechas p{
+  width: 100%;
   margin-bottom: 15px;
 }
+
+.tit_table{
+  text-align: center;
+}
+
+table{
+  width: 50%;
+  text-align: center;
+  border: 1px solid black;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+table thead tr th{
+  background-color: rgba(28, 110, 177, 0.776);
+  color: white;
+}
+
+table tbody tr:nth-of-type(even){
+background-color: gray;
+}
+
+table tbody tr, tbody td{
+  padding: 12px ;
+}
+
+.fecha-fondo{
+ background-color:rgba(255, 255, 0, 0.453);
+}
+
+main p{
+ margin-left: 40px;
+}
+
+.tel-mail{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
 
